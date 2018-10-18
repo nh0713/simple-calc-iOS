@@ -139,9 +139,5 @@ class ViewController: UIViewController {
         rhs = ""
         allCurNums = []
     }
-    
-    
-    @IBOutlet var txtOutput: UIView!
-    
 }
 
