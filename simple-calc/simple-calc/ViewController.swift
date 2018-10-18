@@ -85,9 +85,12 @@ class ViewController: UIViewController {
     @IBAction func btnFact(_ sender: UIButton) {
         NSLog(sender.titleLabel!.text!)
         if Int(lhs)! < 1 {
+            labelResult.text = "0"
             NSLog("0")
         } else {
-            NSLog("\(lhs) fact: \(fact(num: Int(lhs)!))")
+            factNum = fact(num: Int(lhs)!)
+            labelResult.text = String(factNum)
+            NSLog("\(lhs) fact: \(factNum)")
         }
         reset()
     }
