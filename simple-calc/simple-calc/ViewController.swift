@@ -88,7 +88,7 @@ class ViewController: UIViewController {
             labelResult.text = "0"
             NSLog("0")
         } else {
-            factNum = fact(num: Int(lhs)!)
+            let factNum = fact(num: Int(lhs)!)
             labelResult.text = String(factNum)
             NSLog("\(lhs) fact: \(factNum)")
         }
