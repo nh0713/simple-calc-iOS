@@ -14,6 +14,7 @@
 		060F84792177F37100F8B8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060F84772177F37100F8B8A9 /* LaunchScreen.storyboard */; };
 		060F84842177F37100F8B8A9 /* simple_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F84832177F37100F8B8A9 /* simple_calcTests.swift */; };
 		060F848F2177F37100F8B8A9 /* simple_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F848E2177F37100F8B8A9 /* simple_calcUITests.swift */; };
+		06E952E9217E4456003E04D5 /* ViewControllerHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E952E8217E4456003E04D5 /* ViewControllerHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		060F848A2177F37100F8B8A9 /* simple-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		060F848E2177F37100F8B8A9 /* simple_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calcUITests.swift; sourceTree = "<group>"; };
 		060F84902177F37100F8B8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E952E8217E4456003E04D5 /* ViewControllerHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				060F846E2177F37000F8B8A9 /* AppDelegate.swift */,
 				060F84702177F37000F8B8A9 /* ViewController.swift */,
+				06E952E8217E4456003E04D5 /* ViewControllerHistory.swift */,
 				060F84722177F37000F8B8A9 /* Main.storyboard */,
 				060F84752177F37100F8B8A9 /* Assets.xcassets */,
 				060F84772177F37100F8B8A9 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				060F84712177F37000F8B8A9 /* ViewController.swift in Sources */,
 				060F846F2177F37000F8B8A9 /* AppDelegate.swift in Sources */,
+				06E952E9217E4456003E04D5 /* ViewControllerHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
